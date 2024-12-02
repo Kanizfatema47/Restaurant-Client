@@ -1,8 +1,11 @@
+import Banner from "../Banner/Banner";
+import Category from "../Category/Category";
 
 export default function Home() {
   return (
     <div>
-        <h1 className="text-4xl">This is home</h1>
+      <Banner />
+      <Category />
     </div>
   )
 }

@@ -29,16 +29,16 @@ const salad = menu.filter(item=> item.category === 'salad')
             <SectionTitle subHeading="Don't Miss" heading='Todays Offer' />
             <MenuCategory items={offered}/>
             <MenuCategory items={dessert}
-            title="Dessert"
+            title="dessert"
             img={dessertimg}/>
             <MenuCategory items={salad}
-            title="Salad"
+            title="salad"
             img={saladimg}/>
             <MenuCategory items={pizza}
-            title="Pizza"
+            title="pizza"
             img={pizzaimg}/>
             <MenuCategory items={soup}
-            title="Soup"
+            title="soup"
             img={soupimg}/>
               
         </div>
